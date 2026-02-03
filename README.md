@@ -29,6 +29,27 @@ This project provides a **real-time automated attendance system** built with **P
    pip install -r requirements.txt
    ```
 
+## Run in VS Code
+1. Open the repository folder in VS Code.
+2. Ensure the **Python** extension is installed.
+3. Open the command palette (`Ctrl+Shift+P` / `Cmd+Shift+P`) and select **Python: Create Environment** (or **Python: Select Interpreter**) to choose your virtual environment.
+4. Open an integrated terminal and install dependencies if you haven't already:
+   ```bash
+   pip install -r requirements.txt
+   ```
+5. Run a script from the terminal, for example:
+   ```bash
+   python image_collection.py --name "Alice" --count 50
+   ```
+6. Train the model:
+   ```bash
+   python model_training.py --epochs 10
+   ```
+7. Start the application:
+   ```bash
+   python app.py
+   ```
+
 ## Usage
 
 ### 1. Collect Images
